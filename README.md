@@ -16,6 +16,7 @@ By applying machine learning models like Logistic Regression with resampling tec
 - **Rows**: 255,347  
 - **Columns**: 18  
 - **Type**: Structured tabular data
+- The data is imbalanced with only 11.6% defaulters
 
 The dataset simulates real-world loan data with features that include applicant demographics, financial history, credit scores, and loan characteristics. The target variable indicates whether a customer **defaulted** (`1`) or **did not default** (`0`).
 
