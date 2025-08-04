@@ -30,25 +30,21 @@ Loan defaulting is a major financial risk. Traditional accuracy-based models fai
 - Data Cleaning and Preprocessing
 - Exploratory Data Analysis (EDA)
 - Feature Engineering and Selection
-- Handling Imbalanced Data using SMOTE
+- Handling Imbalanced Data using Random Over Sampler
 
 - Models Used:
   - Logistic Regression
-  - Random Forest Classifier
   - XGboost
-  - Catboost
-  - LightGBM
-  - Gradient Boosting Machine
-  - Logistic Regression
+  - Gaussion Naive Bayes
 
 - Evaluation Metrics:
   - Accuracy
-  - Precision, Recall
-  - F1-Score
+  - Recall
+  - Confusion Matrix
 
 
 ##  Key Results
 
-- Applied **SMOTE** to improve model performance on minority class
-- Achieved significant improvement in **F1-score** for class `1` (defaulters)
-- Explained why **F1-score** is a better metric than accuracy in imbalanced settings
+- Applied **Random Over Sampler** to improve model performance on minority class
+- Achieved significant improvement in **Recall-score** for class `1` (defaulters)
+- Explained why **Recall-score** is a better metric than accuracy in Loan default Predicion
