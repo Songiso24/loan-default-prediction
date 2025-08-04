@@ -7,7 +7,7 @@ Loan Default Prediction Modelling for an imbalanced dataset
 This project uses supervised machine learning techniques to predict the likelihood of a borrower defaulting on a loan. 
 It addresses a critical problem in the financial sector; reducing credit risk by identifying high-risk borrowers before loan approval.
 
-By applying machine learning models like Logistic Regression with resampling techniques like RandomOverSampler), the project aims to build a predictive system that improves recall and F1-score, especially for the minority class (loan defaulters).
+By applying machine learning models like Logistic Regression with resampling techniques like RandomOverSampler), the project aims to build a predictive system that improves recall score for the minority class (loan defaulters).
 
 
 ## Dataset
